@@ -1,7 +1,9 @@
 {
-  "accessKeyId": "",
-  "secretAccessKey": "",
-  "region": "",
+  "awsConfig": {
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "region": ""
+  },
   "Role": "",
   "TopicArn": "",
   "prefixFunctionArn": ""

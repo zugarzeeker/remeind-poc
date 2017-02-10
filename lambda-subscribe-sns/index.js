@@ -1,6 +1,6 @@
 var AWS = require('aws-sdk');
 var config = require('config')
-var sns = new AWS.SNS(config);
+var sns = new AWS.SNS(config.awsConfig);
 
 var functionName = 'hello-lambda-6'
 var params = {

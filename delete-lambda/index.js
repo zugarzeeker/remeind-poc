@@ -1,6 +1,6 @@
 var AWS = require('aws-sdk');
 var config = require('config');
-var lambda = new AWS.Lambda(config);
+var lambda = new AWS.Lambda(config.awsConfig);
 var params = {
   FunctionName: "hello-lambda-8"
 };

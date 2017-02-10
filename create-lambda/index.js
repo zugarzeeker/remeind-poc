@@ -2,7 +2,7 @@
 var functionName = 'hello-lambda-9'
 var AWS = require('aws-sdk');
 var config = require('config')
-var awsConfig = new AWS.Config(config)
+var awsConfig = new AWS.Config(config.awsConfig)
 var lambda = new AWS.Lambda(awsConfig);
 var params = {
   Code: { /* required */
