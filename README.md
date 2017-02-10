@@ -23,3 +23,11 @@ config your secret `config/default.json`
 ```bash
 node create-lambda/index.js
 ```
+
+## Lambda Subscribe SNS
+
+```bash
+node create-lambda/index.js
+node lambda-subscribe-sns/index.js
+node add-permission-lambda-sns/index.js
+```
