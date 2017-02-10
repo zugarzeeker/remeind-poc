@@ -1,5 +1,8 @@
 {
   "accessKeyId": "",
   "secretAccessKey": "",
-  "region": ""
+  "region": "",
+  "Role": "",
+  "TopicArn": "",
+  "prefixFunctionArn": ""
 }
