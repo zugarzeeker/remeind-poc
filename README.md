@@ -3,6 +3,7 @@ Experiment (prove of concept)
 
 ## Getting Started
 run command `npm install` or `yarn` for install packages and dependencies
+
 config your secret `config/default.json`
 
 ```json
