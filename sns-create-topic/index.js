@@ -3,9 +3,9 @@ var config = require('config');
 var sns = new AWS.SNS(config.awsConfig);
 
 var params = {
-  Name: 'hello-world-topic-2' /* required */
+  Name: 'hello-world-topic-0' /* required */
 };
-sns.createTopic(params, function(err, data) {
-  if (err) console.log(err, err.stack); // an error occurred
-  else     console.log(data);           // successful response
-});
+
+sns.createTopic(params).promise()
+.then((data) => console.log(data))
+.catch((err) => console.log(err, err.stack))
