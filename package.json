@@ -6,6 +6,8 @@
   "author": "Supanut Apikulvanich <supanut.overload@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "aws-sdk": "^2.11.0"
+    "aws-sdk": "^2.11.0",
+    "config": "^1.25.1",
+    "dynamoose": "^0.7.0"
   }
 }
