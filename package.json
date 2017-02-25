@@ -8,6 +8,7 @@
   "devDependencies": {
     "aws-sdk": "^2.11.0",
     "config": "^1.25.1",
-    "dynamoose": "^0.7.0"
+    "dynamoose": "^0.7.0",
+    "memjs": "^0.10.0"
   }
 }
