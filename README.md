@@ -15,7 +15,12 @@ config your secret `config/default.json`
   },
   "Role": "",
   "TopicArn": "",
-  "prefixFunctionArn": ""
+  "prefixFunctionArn": "",
+  "memjs": {
+    "endpoint": "",
+    "username": "",
+    "password": ""
+  }
 }
 ```
 
